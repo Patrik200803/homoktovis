@@ -1,0 +1,284 @@
+body {
+    background-attachment: fixed;
+    background-size: 110% 110%;
+    background-image: url(Images/hatter.jpg);
+}
+img{width: 200px;display: block;margin-left: auto;margin-right: auto;}
+h6{text-align: center;}
+
+
+
+
+@keyframes neon-box-shadow {
+    0% {
+        box-shadow: 30px 30px 50px #c444ff, -30px 30px 50px #c444ff, 30px -30px 50px #c444ff, -30px -30px 50px #c444ff;
+        color: #c444ff;
+        text-shadow: 0 0 1rem #c444ff;
+    }
+    30% {
+        box-shadow: 30px 30px 50px #c444ffec, -30px 30px 50px #c444ffea, 30px -30px 50px #c444ffee, -30px -30px 50px #c444ffea;
+        color: #c444ffea;
+        text-shadow: 0 0 1rem #c444ff;
+    }
+    32% {
+        box-shadow: 30px 30px 50px #c444ffb6, -30px 30px 50px #c444ffb6, 30px -30px 50px #c444ffb6, -30px -30px 50px #c444ffb6;
+        color: #c444ffb6;
+        text-shadow: 0 0 1rem #c444ffb6;
+    }
+    35% {
+        box-shadow: 30px 30px 50px #c444ff, -30px 30px 50px #c444fff1, 30px -30px 50px #c444fff3, -30px -30px 50px #c444fff1;
+        color: #c444ffee;
+        text-shadow: 0 0 1rem #c444ff;
+    }
+    79% {
+        box-shadow: 30px 30px 50px #c444ff, -30px 30px 50px #c444ff, 30px -30px 50px #c444ff, -30px -30px 50px #c444ff;
+        color: #c444ff;
+        text-shadow: 0 0 1rem #c444ff;
+    }
+    80% {
+        box-shadow: 30px 30px 50px #c444ffb6, -30px 30px 50px #c444ffb6, 30px -30px 50px #c444ffb6, -30px -30px 50px #c444ffb6;
+        color: #c444ffb6;
+        text-shadow: 0 0 1rem #c444ffb6;
+    }
+    82% {
+        box-shadow: 30px 30px 50px #c444ff, -30px 30px 50px #c444ff, 30px -30px 50px #c444ff, -30px -30px 50px #c444ff;
+        color: #c444ff;
+        text-shadow: 0 0 1rem #c444ff;
+    }
+    83% {
+        box-shadow: 30px 30px 50px #c444ff9a, -30px 30px 50px #c444ff9a, 30px -30px 50px #c444ff9a, -30px -30px 50px #c444ff9a;
+        color: #c444ff9a;
+        text-shadow: 0 0 1rem #c444ffb6;
+    }
+    85% {
+        box-shadow: 30px 30px 50px #c444ff, -30px 30px 50px #c444ff, 30px -30px 50px #c444ff, -30px -30px 50px #c444ff;
+        color: #c444ff;
+        text-shadow: 0 0 1rem #c444ff;
+    }
+    100% {
+        box-shadow: 30px 30px 50px #c444ff, -30px 30px 50px #c444ff, 30px -30px 50px #c444ff, -30px -30px 50px #c444ff;
+        color: #c444ff;
+        text-shadow: 0 0 1rem #c444ff;
+    }
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    width: 768px;
+    height: 1050px;
+    border-radius: 10px;
+    animation: div-enter 2s linear normal forwards, neon-box-shadow 5s normal 1.9s infinite;
+    background-color: #444444;
+}
+
+@keyframes gradient {
+    0% {
+        background-color: #444444;
+    }
+    100% {
+        background-color: #161616 ;
+    }
+}
+
+.navigation {
+    width: 576px;
+    height: 100px;
+    background-color: #161616;
+    color: white;
+    text-shadow: none;
+    font-family: 'Poppins', sans-serif;
+    padding: 1px;
+    margin-bottom: 25px;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #0c0c0c62, -10px 10px 10px #0c0c0c62;
+    font-size: 17.5px;
+    list-style: circle inside;
+    align-content: center;
+    animation: enter 0.5s linear normal forwards;
+}
+
+.btn {
+    border-radius: 60px;
+    border: none;
+    color: #ffffff;
+    font-size: 15px;
+    background: #61255e;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 30px 10px 25px 10px;
+    float:initial;
+  }
+  
+  .btn:hover {
+    background: #662663;
+    text-decoration: none;
+    color: #c444ff;
+    text-shadow: 0 0 1rem #c444ff;
+  }
+
+.index {
+    width: 576px;
+    height: 650px;
+    background-color: #161616;
+    color: white;
+    text-shadow: none;
+    font-family: 'Poppins', sans-serif;
+    padding: 1px;
+    text-align: justify;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #0c0c0c62, -10px 10px 10px #0c0c0c62;
+    font-size: 17.5px;
+    list-style: circle inside;
+    margin-bottom: 25px;
+    animation: enter 0.75s linear normal forwards;
+    padding-bottom: 25px;
+}
+
+p1 {
+    font-size: 35px;;
+    font-weight:bold;
+    padding: 0px !important;
+}
+
+p2 {
+    font-size: 20px;
+    padding: 0px !important;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    animation: h1-enter 2s linear normal forwards;
+    padding: 25px;
+    margin: 0px;
+}
+
+h3 {
+    font-weight: 100px;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+@keyframes hover-a {
+	0% {
+		color: #c444ff
+	}
+	100% {
+		color: #6cebff;
+	}
+}
+
+#hover-a {
+    text-decoration: none; 
+    color: #c444ff;
+}
+
+#hover-a:hover {
+    animation: hover-a 0.5s ease 0s 1 normal forwards;
+}
+
+@keyframes div-enter {
+	0% {
+        box-shadow: unset;
+	}
+	99% {
+        box-shadow: 30px 30px 50px #c444ff, -30px 30px 50px #c444ff, 30px -30px 50px #c444ff, -30px -30px 50px #c444ff;
+	}
+}
+
+@keyframes h1-enter {
+	0% {
+        color: white;
+		opacity: 0;
+        text-shadow: unset;
+	}
+    75% {
+        color: rgb(238, 155, 255);
+        text-shadow: none;
+        text-shadow: 0 0 1rem #c444ff
+	}
+    99% {
+        text-shadow: 0 0 1rem #c444ff
+    }
+	100% {
+        color: rgb(238, 155, 255);
+		opacity: 1;
+        text-shadow: unset;
+	}
+}
+
+@keyframes enter {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+#ee {
+    padding: 10px;
+}
+
+#ee:hover {
+    animation: ee 1s cubic-bezier(0.11, 0, 0.5, 0) 0.1s infinite normal forwards;
+}
+
+@keyframes ee {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+
+#sc {
+    padding-bottom: 5px;
+    list-style: none inside;
+    font-size: 10px;
+}
+                
+#cn {
+    padding-bottom: 5px;
+    list-style: circle inside;
+    font-size: 18px;
+}
+
+#n-a:hover {
+    animation: n-a 0.1s linear 0s 1 normal forwards;
+    color: #ff2a2a;
+}
+
+@keyframes n-a {
+    0% {
+        box-shadow: unset;
+    }
+    100% {
+        box-shadow: 1px 1px 5px #ff2a2a, -1px 1px 5px #ff2a2a, 1px -1px 5px #ff2a2a, -1px -1px 5px #ff2a2a;
+    }
+}
